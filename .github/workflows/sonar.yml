@@ -27,6 +27,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=python-security-demo
+            -Dsonar.projectKey=Ramteja24_PAC-MAN-Game
             -Dsonar.organization=ramteja24
             -Dsonar.sources=.
